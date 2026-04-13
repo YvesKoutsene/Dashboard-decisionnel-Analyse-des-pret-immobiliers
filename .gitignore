@@ -1,0 +1,11 @@
+# Systèmes d'exploitation
+desktop.ini
+Thumbs.db
+
+# Fichiers de script temporaires
+*.py
+*.txt
+
+# Dossiers temporaires
+.tmp/
+.temp/
