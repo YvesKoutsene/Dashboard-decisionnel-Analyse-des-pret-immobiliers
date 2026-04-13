@@ -29,7 +29,7 @@ L’objectif n’était pas seulement technique, mais aussi métier : comprendre
 
 Le projet s’est déroulé en plusieurs étapes.
 
-###  1. Nettoyage des données
+### 1. Nettoyage des données
 
 J’ai commencé par analyser le fichier source (Excel), dans lequel plusieurs incohérences étaient présentes :
 
@@ -41,7 +41,7 @@ J’ai donc utilisé Power Query pour corriger et structurer ces données.
 
 ---
 
-###  2. Réflexion métier
+### 2. Réflexion métier
 
 Avant de construire le dashboard, j’ai essayé de me mettre à la place d’un conseiller bancaire.
 
@@ -74,7 +74,7 @@ L’objectif est d’avoir une première lecture rapide du risque associé à un
 
 Le tableau de bord est structuré en plusieurs pages :
 
-####  Indicateurs clients
+#### Indicateurs clients
 
 * suivi des montants de prêts (accordés, refusés, en cours)
 * moyenne des montants
@@ -82,7 +82,7 @@ Le tableau de bord est structuré en plusieurs pages :
 * filtres temporels pour analyser l’évolution
 ![Indicateurs](docs/screenshots/Indicateurs%20client.png)
 
-####  Performance des agences
+#### Performance des agences
 
 * carte des agences
 * nombre de demandes par agence
@@ -90,7 +90,7 @@ Le tableau de bord est structuré en plusieurs pages :
 * taux d’acceptation
 ![Performance](docs/screenshots/Performance%20agences.png)
 
-####  Analyse socio-professionnelle
+#### Analyse socio-professionnelle
 
 * évolution des demandes selon la catégorie socio-professionnelle
 
@@ -100,7 +100,7 @@ Le tableau de bord est structuré en plusieurs pages :
 
 ---
 
-##  Outils utilisés
+## Outils utilisés
 
 * **Power BI Desktop** (visualisation et modélisation)
 * **Power Query** (nettoyage et transformation)
@@ -114,13 +114,5 @@ Le tableau de bord est structuré en plusieurs pages :
 * `/data` : données sources
 * `/pbix` : fichier Power BI
 * `/docs` : captures d’écran + rapport détaillé
-
----
-
-## Remarque personnelle
-
-Ce projet m’a permis de comprendre que la data ne sert pas uniquement à produire des graphiques, mais surtout à **aider à prendre des décisions concrètes**.
-
-C’est cette dimension qui m’intéresse particulièrement aujourd’hui.
 
 ---
