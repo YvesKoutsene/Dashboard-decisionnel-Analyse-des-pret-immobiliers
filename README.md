@@ -80,6 +80,7 @@ Le tableau de bord est structuré en plusieurs pages :
 * moyenne des montants
 * alerte visuelle pour les montants élevés
 * filtres temporels pour analyser l’évolution
+
 ![Indicateurs](docs/screenshots/Indicateurs%20client.png)
 
 #### Performance des agences
@@ -88,6 +89,7 @@ Le tableau de bord est structuré en plusieurs pages :
 * nombre de demandes par agence
 * classement des agences
 * taux d’acceptation
+
 ![Performance](docs/screenshots/Performance%20agences.png)
 
 #### Analyse socio-professionnelle
